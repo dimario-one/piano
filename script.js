@@ -68,6 +68,11 @@ function checkOn(){
 }
 
 // Функция переключения октавы
+function changeOktava(value){
+    if(value===1102){
+        
+    }else if(value===1073){}
+}
 
 onOffBtn.addEventListener("click", () => {
     if (isOnOff === true) {
@@ -79,6 +84,10 @@ onOffBtn.addEventListener("click", () => {
     }
 });
 
+addEventListener('keypress', (e) => {
+    console.log()
+    changeOktava(e.which);
+});
 
 //
 volumePlusBtn.addEventListener("click", () => {
