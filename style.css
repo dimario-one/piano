@@ -18,32 +18,18 @@ body {
     background-size: 100% 100%; 
 } 
 
-.rectangle{
-    position: absolute;
-    top:20px;
-    right: 180px;
-    width: 1555px;
-    height: 10px;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    background-color: aqua;
-}
-.rectangle-black{
-    width: 400px;
-    height: 10px;
-    background-color: black;
-}
-
-
 .buttons {
     position: absolute;
     top: 110px;
     left: 280px;
     width: 140px;
     height: 50px;
-    /* background-color: aqua; */
+   
     background-size: cover;
+}
+.on{
+    background-image: url(./img/Нажатая\ кнопка.png);
+     background-size: cover;
 }
 
 .button {

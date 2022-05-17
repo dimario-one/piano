@@ -77,10 +77,13 @@ function changeOktava(value){
 onOffBtn.addEventListener("click", () => {
     if (isOnOff === true) {
         isOnOff = false;
-        // логика по смене картинки
+ 
+        onOffBtn.classList.remove("on");
     } else {
         isOnOff = true;
-        // логика по смене картинки
+
+      
+        onOffBtn.classList.add("on");
     }
 });
 
